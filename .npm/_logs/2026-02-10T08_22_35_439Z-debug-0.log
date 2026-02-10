@@ -1,0 +1,336 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@9.2.0
+2 info using node@v18.19.1
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:/usr/share/nodejs/npm/npmrc Completed in 3ms
+6 timing config:load:builtin Completed in 4ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:/home/ubuntu/AWS-Session/.npmrc Completed in 1ms
+10 timing config:load:project Completed in 2ms
+11 timing config:load:file:/home/ubuntu/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/etc/npmrc Completed in 1ms
+14 timing config:load:global Completed in 1ms
+15 timing config:load:setEnvs Completed in 1ms
+16 timing config:load Completed in 13ms
+17 timing npm:load:configload Completed in 13ms
+18 timing npm:load:mkdirpcache Completed in 1ms
+19 timing npm:load:mkdirplogs Completed in 0ms
+20 verbose title npm audit fix
+21 verbose argv "audit" "fix"
+22 timing npm:load:setTitle Completed in 2ms
+23 timing config:load:flatten Completed in 5ms
+24 timing npm:load:display Completed in 6ms
+25 verbose logfile logs-max:10 dir:/home/ubuntu/.npm/_logs/2026-02-10T08_22_35_439Z-
+26 verbose logfile /home/ubuntu/.npm/_logs/2026-02-10T08_22_35_439Z-debug-0.log
+27 timing npm:load:logFile Completed in 9ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 32ms
+31 silly logfile done cleaning log files
+32 timing config:load:flatten Completed in 0ms
+33 timing arborist:ctor Completed in 0ms
+34 silly audit bulk request {
+34 silly audit   '@types/node': [ '25.2.2' ],
+34 silly audit   accepts: [ '1.3.8' ],
+34 silly audit   anymatch: [ '3.1.3' ],
+34 silly audit   'array-flatten': [ '1.1.1' ],
+34 silly audit   'balanced-match': [ '1.0.2' ],
+34 silly audit   'binary-extensions': [ '2.3.0' ],
+34 silly audit   'body-parser': [ '1.20.4' ],
+34 silly audit   'brace-expansion': [ '1.1.12' ],
+34 silly audit   braces: [ '3.0.3' ],
+34 silly audit   bytes: [ '3.1.2' ],
+34 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+34 silly audit   'call-bound': [ '1.0.4' ],
+34 silly audit   chokidar: [ '3.6.0' ],
+34 silly audit   'concat-map': [ '0.0.1' ],
+34 silly audit   'content-disposition': [ '0.5.4' ],
+34 silly audit   'content-type': [ '1.0.5' ],
+34 silly audit   cookie: [ '0.7.2' ],
+34 silly audit   'cookie-signature': [ '1.0.7' ],
+34 silly audit   debug: [ '2.6.9', '3.2.7' ],
+34 silly audit   depd: [ '2.0.0' ],
+34 silly audit   destroy: [ '1.2.0' ],
+34 silly audit   dotenv: [ '16.6.1' ],
+34 silly audit   'dunder-proto': [ '1.0.1' ],
+34 silly audit   'ee-first': [ '1.1.1' ],
+34 silly audit   encodeurl: [ '2.0.0' ],
+34 silly audit   'es-define-property': [ '1.0.1' ],
+34 silly audit   'es-errors': [ '1.3.0' ],
+34 silly audit   'es-object-atoms': [ '1.1.1' ],
+34 silly audit   'escape-html': [ '1.0.3' ],
+34 silly audit   etag: [ '1.8.1' ],
+34 silly audit   express: [ '4.22.1' ],
+34 silly audit   'fill-range': [ '7.1.1' ],
+34 silly audit   finalhandler: [ '1.3.2' ],
+34 silly audit   forwarded: [ '0.2.0' ],
+34 silly audit   fresh: [ '0.5.2' ],
+34 silly audit   fsevents: [ '2.3.3' ],
+34 silly audit   'function-bind': [ '1.1.2' ],
+34 silly audit   'get-intrinsic': [ '1.3.0' ],
+34 silly audit   'get-proto': [ '1.0.1' ],
+34 silly audit   'glob-parent': [ '5.1.2' ],
+34 silly audit   gopd: [ '1.2.0' ],
+34 silly audit   'has-flag': [ '3.0.0' ],
+34 silly audit   'has-symbols': [ '1.1.0' ],
+34 silly audit   hasown: [ '2.0.2' ],
+34 silly audit   'http-errors': [ '2.0.1' ],
+34 silly audit   'iconv-lite': [ '0.4.24' ],
+34 silly audit   'ignore-by-default': [ '1.0.1' ],
+34 silly audit   inherits: [ '2.0.4' ],
+34 silly audit   'ipaddr.js': [ '1.9.1' ],
+34 silly audit   'is-binary-path': [ '2.1.0' ],
+34 silly audit   'is-extglob': [ '2.1.1' ],
+34 silly audit   'is-glob': [ '4.0.3' ],
+34 silly audit   'is-number': [ '7.0.0' ],
+34 silly audit   'math-intrinsics': [ '1.1.0' ],
+34 silly audit   'media-typer': [ '0.3.0' ],
+34 silly audit   'merge-descriptors': [ '1.0.3' ],
+34 silly audit   methods: [ '1.1.2' ],
+34 silly audit   mime: [ '1.6.0' ],
+34 silly audit   'mime-db': [ '1.52.0' ],
+34 silly audit   'mime-types': [ '2.1.35' ],
+34 silly audit   minimatch: [ '3.1.2' ],
+34 silly audit   ms: [ '2.0.0', '2.1.3' ],
+34 silly audit   negotiator: [ '0.6.3' ],
+34 silly audit   nodemon: [ '2.0.22' ],
+34 silly audit   'normalize-path': [ '3.0.0' ],
+34 silly audit   'object-inspect': [ '1.13.4' ],
+34 silly audit   'on-finished': [ '2.4.1' ],
+34 silly audit   parseurl: [ '1.3.3' ],
+34 silly audit   'path-to-regexp': [ '0.1.12' ],
+34 silly audit   picomatch: [ '2.3.1' ],
+34 silly audit   'proxy-addr': [ '2.0.7' ],
+34 silly audit   'pstree.remy': [ '1.1.8' ],
+34 silly audit   qs: [ '6.14.1' ],
+34 silly audit   'range-parser': [ '1.2.1' ],
+34 silly audit   'raw-body': [ '2.5.3' ],
+34 silly audit   readdirp: [ '3.6.0' ],
+34 silly audit   'safe-buffer': [ '5.2.1' ],
+34 silly audit   'safer-buffer': [ '2.1.2' ],
+34 silly audit   semver: [ '5.7.2', '7.0.0' ],
+34 silly audit   send: [ '0.19.2' ],
+34 silly audit   'serve-static': [ '1.16.3' ],
+34 silly audit   setprototypeof: [ '1.2.0' ],
+34 silly audit   'side-channel': [ '1.1.0' ],
+34 silly audit   'side-channel-list': [ '1.0.0' ],
+34 silly audit   'side-channel-map': [ '1.0.1' ],
+34 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+34 silly audit   'simple-update-notifier': [ '1.1.0' ],
+34 silly audit   statuses: [ '2.0.2' ],
+34 silly audit   stripe: [ '9.16.0' ],
+34 silly audit   'supports-color': [ '5.5.0' ],
+34 silly audit   'to-regex-range': [ '5.0.1' ],
+34 silly audit   toidentifier: [ '1.0.1' ],
+34 silly audit   touch: [ '3.1.1' ],
+34 silly audit   'type-is': [ '1.6.18' ],
+34 silly audit   undefsafe: [ '2.0.5' ],
+34 silly audit   'undici-types': [ '7.16.0' ],
+34 silly audit   unpipe: [ '1.0.0' ],
+34 silly audit   'utils-merge': [ '1.0.1' ],
+34 silly audit   vary: [ '1.1.2' ]
+34 silly audit }
+35 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 198ms
+36 timing auditReport:getReport Completed in 204ms
+37 silly audit report {
+37 silly audit report   semver: [
+37 silly audit report     {
+37 silly audit report       id: 1112921,
+37 silly audit report       url: 'https://github.com/advisories/GHSA-c2qf-rxjj-qqgw',
+37 silly audit report       title: 'semver vulnerable to Regular Expression Denial of Service',
+37 silly audit report       severity: 'high',
+37 silly audit report       vulnerable_versions: '>=7.0.0 <7.5.2',
+37 silly audit report       cwe: [Array],
+37 silly audit report       cvss: [Object]
+37 silly audit report     }
+37 silly audit report   ]
+37 silly audit report }
+38 timing metavuln:cache:get:security-advisory:semver:k0CjOJivVSeZQqdpa+Al8NDNCdnkC52iwoc802/3iU22WysxoQZrTMTxZeC1kChwn28QwXXmNWDXVyosLz9JMw== Completed in 8ms
+39 http fetch GET 200 https://registry.npmjs.org/semver 16ms (cache hit)
+40 timing metavuln:packument:semver Completed in 19ms
+41 timing metavuln:load:security-advisory:semver:1112921 Completed in 1ms
+42 timing metavuln:calculate:security-advisory:semver:1112921 Completed in 21ms
+43 timing metavuln:cache:get:security-advisory:simple-update-notifier:sAk3HqCEinqss3JaKQs47PvMnqkFDKonysISao6hyBRt+iknsEcByvy0kitPPPBq179dkQDlIWEPTcxTEudwTg== Completed in 3ms
+44 http fetch GET 200 https://registry.npmjs.org/simple-update-notifier 6ms (cache hit)
+45 timing metavuln:packument:simple-update-notifier Completed in 7ms
+46 timing metavuln:load:security-advisory:simple-update-notifier:k0CjOJivVSeZQqdpa+Al8NDNCdnkC52iwoc802/3iU22WysxoQZrTMTxZeC1kChwn28QwXXmNWDXVyosLz9JMw== Completed in 0ms
+47 timing metavuln:calculate:security-advisory:simple-update-notifier:k0CjOJivVSeZQqdpa+Al8NDNCdnkC52iwoc802/3iU22WysxoQZrTMTxZeC1kChwn28QwXXmNWDXVyosLz9JMw== Completed in 8ms
+48 timing metavuln:cache:get:security-advisory:nodemon:htm+TwaS+mhq//1BkkiBKu99ztzqDZ9kEjJYPJ1rfA12qgcu0plmB9lPKvNwuPj0jlUGXOeVWs1QQjQf/F7QIw== Completed in 2ms
+49 http fetch GET 200 https://registry.npmjs.org/nodemon 5ms (cache hit)
+50 timing metavuln:packument:nodemon Completed in 8ms
+51 timing metavuln:load:security-advisory:nodemon:sAk3HqCEinqss3JaKQs47PvMnqkFDKonysISao6hyBRt+iknsEcByvy0kitPPPBq179dkQDlIWEPTcxTEudwTg== Completed in 1ms
+52 timing metavuln:calculate:security-advisory:nodemon:sAk3HqCEinqss3JaKQs47PvMnqkFDKonysISao6hyBRt+iknsEcByvy0kitPPPBq179dkQDlIWEPTcxTEudwTg== Completed in 9ms
+53 timing auditReport:init Completed in 42ms
+54 timing audit Completed in 381ms
+55 timing idealTree:init Completed in 2ms
+56 timing idealTree:userRequests Completed in 1ms
+57 silly idealTree buildDeps
+58 silly fetch manifest nodemon@^2.0.16
+59 silly placeDep ROOT nodemon@2.0.18 KEEP for: stripe-integration@1.0.0 want: ^2.0.16
+60 timing idealTree:#root Completed in 11ms
+61 silly fetch manifest simple-update-notifier@^1.0.7
+62 silly placeDep ROOT simple-update-notifier@1.1.0 KEEP for: nodemon@2.0.22 want: ^1.0.7
+63 timing idealTree:node_modules/nodemon Completed in 5ms
+64 silly fetch manifest semver@~7.0.0
+65 silly placeDep node_modules/simple-update-notifier semver@7.0.0 KEEP for: simple-update-notifier@1.1.0 want: ~7.0.0
+66 timing idealTree:node_modules/simple-update-notifier Completed in 2ms
+67 timing idealTree:buildDeps Completed in 20ms
+68 timing idealTree:fixDepFlags Completed in 0ms
+69 timing idealTree Completed in 26ms
+70 timing arborist:ctor Completed in 0ms
+71 timing reify:loadTrees Completed in 93ms
+72 timing reify:diffTrees Completed in 4ms
+73 silly reify moves {}
+74 timing reify:retireShallow Completed in 1ms
+75 timing reify:createSparse Completed in 1ms
+76 timing reify:loadBundles Completed in 0ms
+77 silly audit bulk request {
+77 silly audit   '@types/node': [ '25.2.2' ],
+77 silly audit   accepts: [ '1.3.8' ],
+77 silly audit   anymatch: [ '3.1.3' ],
+77 silly audit   'array-flatten': [ '1.1.1' ],
+77 silly audit   'balanced-match': [ '1.0.2' ],
+77 silly audit   'binary-extensions': [ '2.3.0' ],
+77 silly audit   'body-parser': [ '1.20.4' ],
+77 silly audit   'brace-expansion': [ '1.1.12' ],
+77 silly audit   braces: [ '3.0.3' ],
+77 silly audit   bytes: [ '3.1.2' ],
+77 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+77 silly audit   'call-bound': [ '1.0.4' ],
+77 silly audit   chokidar: [ '3.6.0' ],
+77 silly audit   'concat-map': [ '0.0.1' ],
+77 silly audit   'content-disposition': [ '0.5.4' ],
+77 silly audit   'content-type': [ '1.0.5' ],
+77 silly audit   cookie: [ '0.7.2' ],
+77 silly audit   'cookie-signature': [ '1.0.7' ],
+77 silly audit   debug: [ '2.6.9', '3.2.7' ],
+77 silly audit   depd: [ '2.0.0' ],
+77 silly audit   destroy: [ '1.2.0' ],
+77 silly audit   dotenv: [ '16.6.1' ],
+77 silly audit   'dunder-proto': [ '1.0.1' ],
+77 silly audit   'ee-first': [ '1.1.1' ],
+77 silly audit   encodeurl: [ '2.0.0' ],
+77 silly audit   'es-define-property': [ '1.0.1' ],
+77 silly audit   'es-errors': [ '1.3.0' ],
+77 silly audit   'es-object-atoms': [ '1.1.1' ],
+77 silly audit   'escape-html': [ '1.0.3' ],
+77 silly audit   etag: [ '1.8.1' ],
+77 silly audit   express: [ '4.22.1' ],
+77 silly audit   'fill-range': [ '7.1.1' ],
+77 silly audit   finalhandler: [ '1.3.2' ],
+77 silly audit   forwarded: [ '0.2.0' ],
+77 silly audit   fresh: [ '0.5.2' ],
+77 silly audit   fsevents: [ '2.3.3' ],
+77 silly audit   'function-bind': [ '1.1.2' ],
+77 silly audit   'get-intrinsic': [ '1.3.0' ],
+77 silly audit   'get-proto': [ '1.0.1' ],
+77 silly audit   'glob-parent': [ '5.1.2' ],
+77 silly audit   gopd: [ '1.2.0' ],
+77 silly audit   'has-flag': [ '3.0.0' ],
+77 silly audit   'has-symbols': [ '1.1.0' ],
+77 silly audit   hasown: [ '2.0.2' ],
+77 silly audit   'http-errors': [ '2.0.1' ],
+77 silly audit   'iconv-lite': [ '0.4.24' ],
+77 silly audit   'ignore-by-default': [ '1.0.1' ],
+77 silly audit   inherits: [ '2.0.4' ],
+77 silly audit   'ipaddr.js': [ '1.9.1' ],
+77 silly audit   'is-binary-path': [ '2.1.0' ],
+77 silly audit   'is-extglob': [ '2.1.1' ],
+77 silly audit   'is-glob': [ '4.0.3' ],
+77 silly audit   'is-number': [ '7.0.0' ],
+77 silly audit   'math-intrinsics': [ '1.1.0' ],
+77 silly audit   'media-typer': [ '0.3.0' ],
+77 silly audit   'merge-descriptors': [ '1.0.3' ],
+77 silly audit   methods: [ '1.1.2' ],
+77 silly audit   mime: [ '1.6.0' ],
+77 silly audit   'mime-db': [ '1.52.0' ],
+77 silly audit   'mime-types': [ '2.1.35' ],
+77 silly audit   minimatch: [ '3.1.2' ],
+77 silly audit   ms: [ '2.0.0', '2.1.3' ],
+77 silly audit   negotiator: [ '0.6.3' ],
+77 silly audit   nodemon: [ '2.0.22' ],
+77 silly audit   'normalize-path': [ '3.0.0' ],
+77 silly audit   'object-inspect': [ '1.13.4' ],
+77 silly audit   'on-finished': [ '2.4.1' ],
+77 silly audit   parseurl: [ '1.3.3' ],
+77 silly audit   'path-to-regexp': [ '0.1.12' ],
+77 silly audit   picomatch: [ '2.3.1' ],
+77 silly audit   'proxy-addr': [ '2.0.7' ],
+77 silly audit   'pstree.remy': [ '1.1.8' ],
+77 silly audit   qs: [ '6.14.1' ],
+77 silly audit   'range-parser': [ '1.2.1' ],
+77 silly audit   'raw-body': [ '2.5.3' ],
+77 silly audit   readdirp: [ '3.6.0' ],
+77 silly audit   'safe-buffer': [ '5.2.1' ],
+77 silly audit   'safer-buffer': [ '2.1.2' ],
+77 silly audit   semver: [ '5.7.2', '7.0.0' ],
+77 silly audit   send: [ '0.19.2' ],
+77 silly audit   'serve-static': [ '1.16.3' ],
+77 silly audit   setprototypeof: [ '1.2.0' ],
+77 silly audit   'side-channel': [ '1.1.0' ],
+77 silly audit   'side-channel-list': [ '1.0.0' ],
+77 silly audit   'side-channel-map': [ '1.0.1' ],
+77 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+77 silly audit   'simple-update-notifier': [ '1.1.0' ],
+77 silly audit   statuses: [ '2.0.2' ],
+77 silly audit   stripe: [ '9.16.0' ],
+77 silly audit   'supports-color': [ '5.5.0' ],
+77 silly audit   'to-regex-range': [ '5.0.1' ],
+77 silly audit   toidentifier: [ '1.0.1' ],
+77 silly audit   touch: [ '3.1.1' ],
+77 silly audit   'type-is': [ '1.6.18' ],
+77 silly audit   undefsafe: [ '2.0.5' ],
+77 silly audit   'undici-types': [ '7.16.0' ],
+77 silly audit   unpipe: [ '1.0.0' ],
+77 silly audit   'utils-merge': [ '1.0.1' ],
+77 silly audit   vary: [ '1.1.2' ]
+77 silly audit }
+78 verbose reify failed optional dependency /home/ubuntu/AWS-Session/node_modules/fsevents
+79 silly reify mark deleted [ '/home/ubuntu/AWS-Session/node_modules/fsevents' ]
+80 timing reifyNode:node_modules/fsevents Completed in 3ms
+81 timing reify:unpack Completed in 4ms
+82 timing reify:unretire Completed in 0ms
+83 timing build:queue Completed in 1ms
+84 timing build:deps Completed in 2ms
+85 timing build Completed in 2ms
+86 timing reify:build Completed in 2ms
+87 timing reify:trash Completed in 20ms
+88 timing reify:save Completed in 44ms
+89 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 108ms
+90 timing auditReport:getReport Completed in 110ms
+91 silly audit report {
+91 silly audit report   semver: [
+91 silly audit report     {
+91 silly audit report       id: 1112921,
+91 silly audit report       url: 'https://github.com/advisories/GHSA-c2qf-rxjj-qqgw',
+91 silly audit report       title: 'semver vulnerable to Regular Expression Denial of Service',
+91 silly audit report       severity: 'high',
+91 silly audit report       vulnerable_versions: '>=7.0.0 <7.5.2',
+91 silly audit report       cwe: [Array],
+91 silly audit report       cvss: [Object]
+91 silly audit report     }
+91 silly audit report   ]
+91 silly audit report }
+92 timing metavuln:packument:semver Completed in 1ms
+93 timing metavuln:cache:get:security-advisory:semver:k0CjOJivVSeZQqdpa+Al8NDNCdnkC52iwoc802/3iU22WysxoQZrTMTxZeC1kChwn28QwXXmNWDXVyosLz9JMw== Completed in 2ms
+94 timing metavuln:load:security-advisory:semver:1112921 Completed in 0ms
+95 timing metavuln:calculate:security-advisory:semver:1112921 Completed in 2ms
+96 timing metavuln:packument:simple-update-notifier Completed in 0ms
+97 timing metavuln:cache:get:security-advisory:simple-update-notifier:sAk3HqCEinqss3JaKQs47PvMnqkFDKonysISao6hyBRt+iknsEcByvy0kitPPPBq179dkQDlIWEPTcxTEudwTg== Completed in 1ms
+98 timing metavuln:load:security-advisory:simple-update-notifier:k0CjOJivVSeZQqdpa+Al8NDNCdnkC52iwoc802/3iU22WysxoQZrTMTxZeC1kChwn28QwXXmNWDXVyosLz9JMw== Completed in 0ms
+99 timing metavuln:calculate:security-advisory:simple-update-notifier:k0CjOJivVSeZQqdpa+Al8NDNCdnkC52iwoc802/3iU22WysxoQZrTMTxZeC1kChwn28QwXXmNWDXVyosLz9JMw== Completed in 1ms
+100 timing metavuln:packument:nodemon Completed in 0ms
+101 timing metavuln:cache:get:security-advisory:nodemon:htm+TwaS+mhq//1BkkiBKu99ztzqDZ9kEjJYPJ1rfA12qgcu0plmB9lPKvNwuPj0jlUGXOeVWs1QQjQf/F7QIw== Completed in 1ms
+102 timing metavuln:load:security-advisory:nodemon:sAk3HqCEinqss3JaKQs47PvMnqkFDKonysISao6hyBRt+iknsEcByvy0kitPPPBq179dkQDlIWEPTcxTEudwTg== Completed in 2ms
+103 timing metavuln:calculate:security-advisory:nodemon:sAk3HqCEinqss3JaKQs47PvMnqkFDKonysISao6hyBRt+iknsEcByvy0kitPPPBq179dkQDlIWEPTcxTEudwTg== Completed in 3ms
+104 timing auditReport:init Completed in 8ms
+105 timing reify:audit Completed in 118ms
+106 timing reify Completed in 221ms
+107 silly ADD
+108 timing command:audit Completed in 618ms
+109 verbose exit 0
+110 timing npm Completed in 670ms
+111 verbose code 1
